@@ -24,25 +24,3 @@ export const Tab = styled.div`
     filter: brightness(1.2);
   }
 `
-
-export const GalleryStyled = styled.div`
-  overflow: scroll;
-
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 16px;
-  }
-  .card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-  }
-  .card img {
-    width: 100%;
-    border-radius: 8px;
-  }
-`

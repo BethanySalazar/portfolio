@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
   width: 100%;
   justify-content: space-between;
   padding: 20px;
+  box-sizing: border-box;
 `
 export const Title = styled.h1`
   padding-right: 20px;
