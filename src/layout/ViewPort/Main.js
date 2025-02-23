@@ -5,11 +5,11 @@ import { MainContainer } from './styles/Main'
 export const ViewPort = props => {
   const [tabState] = useTab()
   return (
-    <div className='ViewPort' >
+    <div className='ViewPort'>
       <div
         style={{
           display: 'flex',
-          flexGrow: '1',
+          flexGrow: '1'
           // border: '1px solid red'
         }}
       >
@@ -18,26 +18,17 @@ export const ViewPort = props => {
       <div
         style={{
           display: 'flex',
-          flexGrow: '2',
+          flexGrow: '2'
           // border: '1px solid red'
         }}
       ></div>
-      <div
-        style={{
-          display: 'flex',
-          flexGrow: '1'
-          // border: '1px solid red'
-        }}
-      >
+      <div style={{ flexGrow: '1', position: 'relative' }}>
+        {/* Button positioned dynamically inside, respecting padding */}
         <div
           style={{
-            // flexGrow: '1',
-            border: '1px solid red',
-            width: '100px',
-            height: '100px',
-            position: 'fixed',
-            bottom: '20px',
-            right: '20px'
+            position: 'absolute',
+            bottom: '20px', 
+            right: '20px' 
           }}
         >
           <Button type={'HTML_Button'} text={'Button'} />

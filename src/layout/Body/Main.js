@@ -26,10 +26,14 @@ export const Body = props => {
         {tabState?.currentTab?.sections?.map(
           (section, sectionIndex) =>
             section && (
-              <div key={`section_${sectionIndex}`}>
+              <div
+                key={`section_${sectionIndex}`}
+                className={`section_${sectionIndex}`}
+              >
                 {Object.entries(section).map(([key, value], index) => (
                   <div
                     key={`section_${sectionIndex}_item_${index}`}
+                    className={`section_${sectionIndex}_item_${index}`}
                     style={{
                       // border: '1px solid red',
                       display: 'flex',
