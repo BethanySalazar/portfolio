@@ -1,4 +1,4 @@
-import { FaEnvelope, FaHome, FaMapMarked, FaUser } from 'react-icons/fa'
+import { FaEnvelope, FaHome, FaMapMarked, FaNode, FaUser } from 'react-icons/fa'
 
 export const tabs = [
   {
@@ -30,5 +30,7 @@ export const tabs = [
   },
   // { id: 'passions', label: 'Passions' },
   { id: 'contactme', label: 'Contact', icon: <FaEnvelope /> },
-  { id: 'locations', label: 'Locations', icon: <FaMapMarked /> }
+  { id: 'locations', label: 'Locations', icon: <FaMapMarked /> },
+  { id: 'nodetree', label: 'Node Tree', icon: <FaNode /> }
+
 ]

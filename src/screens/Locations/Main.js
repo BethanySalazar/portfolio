@@ -3,7 +3,7 @@ import { savedplacesgoogle } from '../../app/files/savedplacesgoogle'
 import { loadPlaces } from '../../utilities/location'
 import { Button, Gallery } from '../../components'
 
-const GOOGLE_API_KEY = process.env.GOOGLE_MAPS_API_KEY
+const GOOGLE_API_KEY = process.env.GOOGLE_MAPS_API_KEY || 'AIzaSyDuXHTT3TxUzaT6Xud3TU7xGdPDoFw6Qf8'
 
 export const Locations = props => {
   const {} = props
