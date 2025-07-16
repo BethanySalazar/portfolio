@@ -9,14 +9,14 @@ function App () {
   console.log('themeState', themeState)
   return (
     <TabProvider initialState={initialTabState} reducer={tabReducer}>
-      {/* <Sandbox /> */}
+      <Sandbox />
       {/* <ViewPort /> */}
-      <div className='App'>
-        {/* <Sidebar /> */}
+      {/* <div className='App'>
+        <Sidebar />
         <Header type={'Simple_Header'} />
         <Body />
         <Footer />
-      </div>
+      </div> */}
     </TabProvider>
   )
 }
