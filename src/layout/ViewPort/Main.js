@@ -13,7 +13,7 @@ export const ViewPort = props => {
           // border: '1px solid red'
         }}
       >
-        {/* <button></button> */}
+        {/* <button>BUtton</button> */}
       </div>
       <div
         style={{
@@ -22,8 +22,13 @@ export const ViewPort = props => {
           // border: '1px solid red'
         }}
       ></div>
-      <div style={{ flexGrow: '1', position: 'relative' }}>
-        {/* Button positioned dynamically inside, respecting padding */}
+      <div
+        style={{
+          display: 'flex',
+          flexGrow: '1',
+          // border: '1px solid red'
+        }}
+      >
         <div
           style={{
             position: 'absolute',
