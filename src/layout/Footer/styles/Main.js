@@ -8,7 +8,7 @@ export const MainContainer = styled.div`
 
 `
 export const StyledLink = styled.a`
-  font-size: ${props => (props.bold === 'true' ? '20px' : 'default')};
+  font-size: ${props => (props.$bold === 'true' ? '20px' : 'default')};
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;

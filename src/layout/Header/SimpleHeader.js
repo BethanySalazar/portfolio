@@ -1,5 +1,5 @@
-import { contactinfo } from '../../app/files'
-import { Navigation } from '../../components'
+import { contactinfo } from 'app/files'
+import { Navigation } from 'components'
 import { MainContainer, Title } from './styles'
 
 export const SimpleHeader = props => {

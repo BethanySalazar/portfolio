@@ -1,5 +1,5 @@
-import { useTab } from '../../app/data/context/TabContext'
-import { Button } from '../../components'
+import { useTab } from 'app/data/context/TabContext'
+import { Button } from 'components'
 import { MainContainer } from './styles/Main'
 
 export const ViewPort = props => {

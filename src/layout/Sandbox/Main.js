@@ -1,12 +1,9 @@
 import { useEffect, useState } from 'react'
 import { GalleryStyled } from './styles/Main'
-import { savedplacesgoogle } from '../../app/files/savedplacesgoogle'
-import { loadPlaces } from '../../utilities/location'
-import { Gallery } from '../../components'
-import { Body } from '../Body'
-import { Footer } from '../Footer'
-import { Header } from '../Header'
-import { Sidebar } from '../Sidebar'
+import { savedplacesgoogle } from 'app/files'
+import { loadPlaces } from 'utilities'
+import { Gallery } from 'components'
+import { Body, Footer, Header, Sidebar } from 'layout'
 
 export const Sandbox = () => {
   return (

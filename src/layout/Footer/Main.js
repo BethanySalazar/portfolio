@@ -1,4 +1,4 @@
-import { contactinfo } from '../../app/files'
+import { contactinfo } from 'app/files'
 import { MainContainer, StyledLink } from './styles/Main'
 
 export const Footer = props => {
@@ -27,7 +27,7 @@ export const Footer = props => {
             )}
             {field?.value && (
               <StyledLink
-                bold={field.id === 'name' ? 'true' : 'false'}
+                $bold={field.id === 'name' ? 'true' : 'false'}
                 href={field?.link}
               >
                 {field.value}

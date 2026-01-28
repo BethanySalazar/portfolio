@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import { TabProvider, useTheme } from './app/data/context'
-import { tabReducer, initialTabState } from './app/data/reducer'
+import { TabProvider, useTheme } from 'app/data/context'
+import { tabReducer, initialTabState } from 'app/data/reducer'
 
 import { Body, Footer, Header, Sandbox, Sidebar, ViewPort } from './layout'
 

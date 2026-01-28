@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useTab } from '../../app/data/context/TabContext'
+import { useTab } from 'app/data/context/TabContext'
 import { TabsContainer, Tab, StyledIcon } from './styles'
 
 export const Navigation = props => {
@@ -27,8 +27,8 @@ export const Navigation = props => {
               type={props.type}
               label={tab.label.toUpperCase()}
               orientation={'horizontal'} // vertical or horizontal
-              active={(tab.id === tabState.currentTab.id).toString()}
-              wasactive={(tab.id === previousActiveTab?.id).toString()} // Pass the previous active tab
+              $active={(tab.id === tabState.currentTab.id).toString()}
+              $wasactive={(tab.id === previousActiveTab?.id).toString()} // Pass the previous active tab
               key={tab.id}
               onClick={() => handleTabClick(tab)}
             >

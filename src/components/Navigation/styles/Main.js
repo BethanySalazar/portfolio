@@ -27,7 +27,7 @@ export const StyledIcon = styled.div`
   font-weight: bold;
   cursor: pointer;
   font-size: 40px;
-  color: ${props => (props.active === 'true' ? 'blue' : 'black')};
+  color: ${props => (props.$active === 'true' ? 'blue' : 'black')};
   position: relative;
   text-decoration: none;
   display: inline-flex;

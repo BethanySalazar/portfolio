@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react'
-import { useTab } from '../../app/data/context/TabContext'
-import { InputField } from '../../components'
-import { Textarea } from '../../components/Textarea/Main'
+import { useTab } from 'app/data/context/TabContext'
+import { InputField, Textarea } from 'components'
 import { MainContainer } from './styles/Main'
-import { Locations } from '../../screens/Locations/Main'
+import { Locations } from 'screens'
 
 export const Body = props => {
   const [tabState] = useTab()
@@ -11,7 +10,7 @@ export const Body = props => {
   return (
     <div className='body' style={{ display: 'flex', flexDirection: 'column', minHeight:'100vh'}}>
       <MainContainer className='Body'>
-        <h1>{tabState?.currentTab?.label}</h1>
+        {/* <h1>{tabState?.currentTab?.label}</h1> */}
         {tabState?.currentTab?.label.toLowerCase() == 'locations' && (
           <Locations />
         )}
