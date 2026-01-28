@@ -13,7 +13,7 @@ export const ViewPort = props => {
           // border: '1px solid red'
         }}
       >
-        {/* <button></button> */}
+        {/* <button>BUtton</button> */}
       </div>
       <div
         style={{
@@ -25,7 +25,7 @@ export const ViewPort = props => {
       <div
         style={{
           display: 'flex',
-          flexGrow: '1'
+          flexGrow: '1',
           // border: '1px solid red'
         }}
       >
